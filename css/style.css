@@ -1,6 +1,17 @@
-/* Simple clean style */
+@font-face {
+  font-family: 'Pixellari';
+  src: url('../fonts/Pixellari.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, nav, footer, p {
+  font-family: 'Pixellari', monospace;
+  letter-spacing: 1px;  /* helps readability for pixel fonts */
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Pixellari', monospace;
   margin: 0;
   padding: 0;
   line-height: 1.6;
